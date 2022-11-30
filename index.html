@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>サンプル</title>
+    <meta name="description" content="サンプル">
+    <script src="script.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+        }
+
+        a.btn {
+            color: #000;
+            background-color: #fff100;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 100px;
+            border-bottom: 5px solid #ccc100;
+            font-size: 32px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 0.3s;
+        }
+
+        a.btn:hover {
+            margin-top: 2px;
+            color: #000;
+        }
+
+        a.btn:active {
+            margin-top: 3px;
+            color: #000;
+            background: #fff20a;
+            border-bottom: 2px solid #ccc100;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="btn"
+        onclick='bgSlide(["1.jpg", "2.jpg", "3.jpg", "4.jpg"], 3, 0.3, -1, `filter: brightness(0.5);`)'>実行</a>
+</body>
+
+</html>
