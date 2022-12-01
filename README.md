@@ -25,7 +25,7 @@ script.jsより引用
 
 ## 規約
 
-Author : 綾急技研(AyaExpTech)
+Author : 綾急技研(AyaExpTech)  
 Licensed by "AeTOS(Type-**06**)"
 
 ![license.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2599149/1ff92d15-4ace-6c59-f629-01373db61b02.png)
